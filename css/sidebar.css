@@ -69,7 +69,7 @@ body {
     left: 0;
     width: 100%;
     color: #cadcfc;
-    display: flex;
+    display: none;
     justify-content: space-around;
 }
 .bottom-menu-icon{
@@ -120,13 +120,13 @@ body {
 /* Tablets Devices  */
 @media screen and (min-width: 769px) and (max-width: 992px){
     .bottom-navigation-bar{
-        visibility: hidden;
+        display: flex;
     }
 }
 
 /* Large Devices  */
 @media screen and (min-width: 993px) and (max-width: 1550px){
     .bottom-navigation-bar{
-        visibility: hidden;
+        display: flex;
     }
 }
