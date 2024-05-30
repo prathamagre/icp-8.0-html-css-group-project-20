@@ -1,7 +1,8 @@
-.language-content{
+.language-content {
     width: 100%;
     background-color: #cadcfc;
 }
+
 .span {
     color: #00246b;
 
@@ -67,10 +68,11 @@
 .card-img {
     border-radius: 6px 6px 0px 0px;
 }
-.rating-image{
+
+.rating-image {
     margin-left: 100px;
     height: 30px;
-  }
+}
 
 .container1 {
     padding: 2px 16px;
@@ -102,4 +104,137 @@
 
 .btn-image {
     padding: 5px;
+}
+
+/* small device */
+@media screen and (max-width: 600px) {
+    .card-container{
+        margin: auto;
+    }
+    .card {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+        width: 300px;
+        border-radius: 10px;
+        height: 440px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+}
+
+/* normal device */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+    .logo img {
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    .page-footer {
+
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    .card {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+        width: 300px;
+        border-radius: 10px;
+        height: 440px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+    .bg-img {
+        display: none;
+    }
+
+}
+
+/* tablet device */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    .page-footer {
+
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    .bg-img {
+        display: none;
+    }
+
+    .card {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+        width: 300px;
+        border-radius: 10px;
+        height: 440px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+}
+
+/* large device */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    .page-footer {
+
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    .card {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+        width: 300px;
+        border-radius: 10px;
+        height: 440px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    .page-footer {
+
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    .card {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+        width: 300px;
+        border-radius: 10px;
+        height: 440px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
 }

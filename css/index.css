@@ -44,3 +44,115 @@
     margin-top: 60px;
     margin-right: 90px;
 }
+/* small device */
+@media screen and (max-width: 600px) {
+
+    .logo img {
+        height: 25px;
+        margin-left: 5px;
+    }
+
+    .content-image img {
+        display: none;
+    }
+
+    .content-container .content h3 {
+        font-size: 40px;
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .content-container .content p {
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .content button {
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #00246b;
+        color: #fff;
+        margin-left: 105px;
+        text-align: center;
+    }
+
+}
+
+/* normal device */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    
+    .logo img {
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    .content-image img {
+        display: none;
+    }
+
+    .content-container .content h3 {
+        font-size: 40px;
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .content-container .content p {
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .content button {
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #00246b;
+        color: #fff;
+        margin-left: 180px;
+    }
+}
+
+/* tablet device */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    .content-container {
+        display: inline;
+    }
+
+    .content-container .content h3 {
+        font-size: 40px;
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .content-container .content p {
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .content button {
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #00246b;
+        color: #fff;
+        margin-left: 230px;
+    }
+}
+
+/* large device */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+}
