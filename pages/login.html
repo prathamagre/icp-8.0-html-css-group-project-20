@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./../css/sidebar.css" />
+    <link rel="stylesheet" href="/css/login.css" />
 </head>
+
 <body>
     <nav class="navbar">
         <span class="nav-text">Hello Talk</span>
     </nav>
     <div class="container">
         <div class="sidebar">
-            <a class="menu-item active-menu" href="./index.html">
-                <img src="./img/home.png" alt="home image" class="menu-icon">
+            <a class="menu-item" href="./../index.html">
+                <img src="./../img/home.png" alt="home image" class="menu-icon">
                 <span class="menu-text">Home</span>
             </a>
 
-            <a class="menu-item" href="./pages/languages.html">
-                <img src="./img/languages.png" alt="languagesimage" class="menu-icon">
+            <a class="menu-item" href="./../pages/languages.html">
+                <img src="./../img/languages.png" alt="languagesimage" class="menu-icon">
                 <span class="menu-text">Languages</span>
             </a>
 
-            <a class="menu-item" href="./pages/login.html">
-                <img src="./img/login.png" alt="home image" class="menu-icon">
+            <a class="menu-item active-menu" href="/pages/login.html">
+                <img src="./../img/login.png" alt="home image" class="menu-icon">
                 <span class="menu-text">Login</span>
             </a>
 
-            <a class="menu-item" href="./pages/services.html">
-                <img src="./img/services.png" alt="home image" class="menu-icon">
+            <a class="menu-item" href="./../pages/services.html">
+                <img src="./../img/services.png" alt="home image" class="menu-icon">
                 <span class="menu-text">Services</span>
             </a>
         </div>
+
+        <div class="login-page">
+            <div class="login-container">
+                <h2>Login</h2>
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-link">
+                        <a href="a" class="forget pass">forget password?</a><br><br>
+                    </div>
+                    <button type="submit"> Login</button><br><br>
+                    <div class="form-link"> <span>Not registered?<a href="../Pages/Signup.html" class="create acc">
+                                Create an account</a></span></div><br>
+
+                    <button type="submit" class="btn2"> <i class="fa-brands fa-facebook" class="gl"></i>&nbsp;&nbsp;
+                        Login with Facebook </button><br><br>
+                    <button type="submit" class="btn3"> <i class="fa-brands fa-google"
+                            class="gl"></i>&nbsp;&nbsp;&nbsp;Login with Google</button><br><br>
+                </form>
+            </div>
+        </div>
 </body>
+
 </html>
