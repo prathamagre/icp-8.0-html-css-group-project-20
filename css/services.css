@@ -1,0 +1,37 @@
+.services-content{
+    width: 100%;
+    background-color: #cadcfc;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.services{
+    background-color: white;
+    padding: 25px;
+    height: 350px;
+    width: 250px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    margin: 20px;
+
+}
+.services:hover{
+    height: 351px;
+    width: 251px;
+    padding: 26px;
+    border: 3px solid silver;
+    border-radius: 31px;
+    box-shadow: 0px 0px 40px 0px #0036b1;
+    transition-duration: 0.5s;
+}
+.heading{
+    text-align: center;
+}
+.img{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    border: 1px solid silver;
+}
