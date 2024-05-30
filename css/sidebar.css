@@ -32,6 +32,11 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.active-menu{
+    background-color: #98b2e6
 }
 .menu-item:hover{
     background-color: #98b2e6;
