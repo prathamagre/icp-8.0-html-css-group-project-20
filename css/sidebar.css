@@ -120,13 +120,13 @@ body {
 /* Tablets Devices  */
 @media screen and (min-width: 769px) and (max-width: 992px){
     .bottom-navigation-bar{
-        display: flex;
+        display: none;
     }
 }
 
 /* Large Devices  */
 @media screen and (min-width: 993px) and (max-width: 1550px){
     .bottom-navigation-bar{
-        display: flex;
+        display: none;
     }
 }
